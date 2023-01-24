@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@media screen and (min-width: 800px){
+    main{
+        flex-direction: row;
+        position: relative;
+        top: 50%;
+        left: 50%;
+
+        margin: 0px;
+        padding: 0px;
+        width: 650px;
+        height: 500px;
+
+        transform: translate(-50%, -50%);
+    }
+
+    .produto{
+        padding: 32px;
+        margin: 0px;
+        width: 40%;
+    }
+
+    .imagem{
+        background-image: url(../images/image-product-desktop.jpg);
+        width: 50%;
+        height: 100%;
+    }
+
+    .produto h1{
+        margin: 20px 0px;
+        font-weight: 700;
+    }
+
+    .produto p#sobre{
+        margin: 26px 0px;
+    }
+    
+    .preço{
+        margin-bottom: 33px;
+    }
+}
